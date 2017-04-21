@@ -1,0 +1,275 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+margin: 0 a;
+}
+
+.mayor-container{
+  position: absolute;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 20%;
+}
+
+.head-red{
+  display: inline-block;
+  position: absolute;
+  left: 15%;
+  width: 70%;
+  height: 65%;
+  background-color:#E00109;
+  overflow: auto;
+
+}
+
+.sprite {
+    background-image: url("../img/spritesheet.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+.sprite-logo{
+  position: absolute;
+  top: 17%;
+  left: 0;
+  width: 281px;
+  height: 49px;
+  background-position: -5px -451px;
+}
+
+.sprite-alcalde-de-chilca {
+    width: 243px;
+    height: 270px;
+    background-position: -5px -5px;
+}
+
+.sprite-alejandra-aramayo {
+    width: 312px;
+    height: 165px;
+    background-position: -258px -5px;
+}
+
+.sprite-anuncio {
+    width: 310px;
+    height: 86px;
+    background-position: -258px -180px;
+}
+
+.sprite-corea-del-norte- {
+    width: 312px;
+    height: 165px;
+    background-position: -258px -276px;
+}
+
+.sprite-senora {
+    width: 53px;
+    height: 84px;
+    background-position: -580px -265px;
+}
+
+
+.head-icons{
+  display: inline-block;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  width: 15%;
+  height: 50%
+}
+
+.icon-cont{
+  position: absolute;
+  display: inline-block;
+  width: 22%;
+  height: 80%;
+  background-color: white;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.icons-h{
+  display: inline-block;
+  position: absolute;
+  top: 26%;
+  left:20%;
+  background-color: white;
+  color: #E00109;
+  font-size: 1em;
+}
+
+.icon-facebook-f{
+  left:40%;
+}
+
+.icon-youtube-play{
+  left: 22%;
+}
+
+.icon-instagram{
+  left: 25%
+}
+
+.con-twitter{
+  position: absolute;
+}
+
+.cont-facebook{
+  position: absolute;
+  left:30%;
+}
+.cont-youtube{
+  position: absolute;
+  left:60%;
+}
+.cont-intagram{
+  left: 90%;
+}
+
+.search{
+  display: inline-block;
+  position: absolute;
+  top:30%;
+  right: 10%;
+  width: 10%;
+  height: 35%;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px ;
+}
+
+.icon-search, h4{
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 20%;
+}
+
+h4{
+  left: 10%;
+}
+.icon-search{
+  left: 70%
+}
+
+.menu{
+  position: absolute;
+  top: 65%;
+  left: 15%;
+  width: 70%;
+  height: 35%;
+  background-color: #4D4D59;
+  color: white;
+}
+
+ul{
+  list-style: none;
+  padding: 1%;
+  box-sizing: border-box;
+}
+
+li{
+  top:10%;
+  display: inline-block;
+  padding: 0 1%;
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 0.9em;
+}
+
+.icon-keyboard_arrow_down{
+  position: absolute;
+  top: 11px;
+}
+
+.mayor-container2{
+  position: absolute;
+  top: 20%;
+  display: inline-block;
+  width: 100%;
+  height: 80%;
+}
+
+.headline{
+  box-sizing: border-box;
+  position: absolute;
+  top: 2%;
+  left: 15%;
+  width: 45%;
+  height: 50%;
+  margin-left: 1%;
+}
+
+.titles{
+  background-color: #333340;
+  color: white;
+}
+
+.headline-title{
+  position: absolute;
+  box-sizing: border-box;
+  width: 35%;
+  height: 100%;
+  font-size: 1.7em;
+  padding: 0.5% 1%;
+}
+
+.sprite-odebrecht {
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 65%;
+    height: 100%;
+    background-position: -580px -5px;
+}
+
+.section-iconos{
+  display: inline-block;
+  position: absolute;
+  bottom: 2%;
+  left: 5%;:
+}
+
+.icon-sect{
+  position: absolute;
+  bottom: 8%;
+  display: inline-block;
+  width: 10%;
+  height: 9%;
+  background-color: #B3B3B3;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.icons-s{
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  background-color: #B3B3B3;
+  color: white;
+  font-size: .45em;
+}
+
+.sect-face{
+  left: 5%;
+}
+
+.sect-twitter{
+  left: 20%;
+}
+.sect-share{
+  left: 35%;
+}
+
+.span-twitter{
+}
